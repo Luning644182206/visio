@@ -15,9 +15,6 @@ Rectangle::Rectangle(int x1, int x2, int y1, int y2) :Basic()
 	height = (y2 - y1) / 3;
 	width = (x2 - x1) / 3;
 }
-Rectangle::~Rectangle()
-{
-}
 
 void Rectangle::Offset(int cx, int cy)
 {
